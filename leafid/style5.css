@@ -1,0 +1,7 @@
+    .card-img-top {
+        width: 100%;
+        height: 220px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+      }
+   

@@ -1,0 +1,40 @@
+ body {
+      background-color: #2e2e2e;
+      color: white;
+    }
+    .sidebar {
+      background-color: #1c1c1c;
+      border-right: 2px dashed #28a745;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .logo {
+      text-align: center;
+      margin-bottom: 200px;
+    }
+    .logo img {
+        text-align: center;
+      max-width: 450px;
+        height: auto;
+    }
+    .plant-img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+    .main-img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    }
+    .btn-custom {
+      background-color: #28a745;
+      color: white;
+      font-weight: bold;
+    }
+    .btn-custom:hover {
+      background-color: #218838;
+      color: white;
+    }

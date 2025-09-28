@@ -1,0 +1,75 @@
+
+body {
+    margin: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    position: relative;
+    background: url('img/leafid3.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(34, 34, 34, 0.5); 
+    z-index: 0;
+    pointer-events: none;
+}
+
+.container, .info-box, .back-btn, .btn {
+    position: relative;
+    z-index: 1;
+}
+
+        .container {
+            padding: 40px;
+        }
+
+        .back-btn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: none;
+            border: none;
+            font-size: 30px;
+            cursor: pointer;
+            color: white;
+            text-decoration: none;
+        }
+
+        .info-box {
+            max-width: 800px;
+            margin: auto;
+            background: #333;
+            padding: 30px;
+            border-radius: 12px;
+        }
+
+        .info-box h2 {
+            background-color: #28a745;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .btn {
+            display: block;
+            margin: 20px auto 0;
+            padding: 12px 24px;
+            background-color: #28a745;
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 8px;
+            text-align: center;
+            width: fit-content;
+        }
+
+        .btn:hover {
+            background-color: #218838;
+        }
